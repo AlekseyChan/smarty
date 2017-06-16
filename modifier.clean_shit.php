@@ -8,7 +8,7 @@
 
 function smarty_modifier_clean_shit($text)
 {
-    return preg_replace('/(font-size:.*?;)|(<img.*?>)|(width:.*?px;)|(height:.*?px;)|(font-family:.*?;)/img', '', $text);
+    return preg_replace('/(font-size:.*?;)|(<img.*?>)|(width:.*?px;)|(height:.*?px;)|(font-family:.*?;)/imu', '', $text);
 }
 
 ?>

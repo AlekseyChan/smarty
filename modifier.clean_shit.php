@@ -3,12 +3,12 @@
 /*Author: Aleksey Chan*/
 
 /**
- * Remove tables, images and style attribute from html tags
+ * Remove font changes, images and size  attributes from html
  */
 
 function smarty_modifier_clean_shit($text)
 {
-    return preg_replace('/(style=".*?")|(<table[\s\S]*\/table>)|(<img.*?>)/imu', '', $text);
+    return preg_replace('/(font-size:.*?;)|(<img.*?>)|(width:.*?px;)|(height:.*?px;)|(font-family:.*?;)/img', '', $text);
 }
 
 ?>

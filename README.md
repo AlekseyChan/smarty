@@ -5,7 +5,9 @@ Test repository for smarty plugins
 
 clean_shit - Remove font changes, images and size  attributes from html
 
-clean_style - Remove style attribute from html tags
+clean_style - Remove style attributes from html tags
+
+purify_table - add .table .table-striped .table-hover classes to tables
 
 
 ## Usage
